@@ -1,8 +1,8 @@
 # Sarah Walker
 # create a division function
 
-def division(a, b) :
-    if (b == 0) :
+def division(iNum1, iNum2) :
+    if (iNum2 == 0) :
         return ("Error: Can not divide by 0")
     else: 
-        return a / b
+        return iNum1 / iNum2
